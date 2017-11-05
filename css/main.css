@@ -10,3 +10,7 @@ body {
 .title {
 	text-align: center;
 }
+
+.col-md-8 {
+	background-color: black;
+}
