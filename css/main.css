@@ -11,10 +11,8 @@ body {
 	text-align: center;
 }
 
-.col-md-8 {
-	background-color: black;
+.page-header {
+	margin-left: 80px;
+	border-bottom: 1px solid black;
 }
 
-// .list-group {
-// 	padding-top: 20px;
-// }
