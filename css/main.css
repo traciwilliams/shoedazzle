@@ -16,6 +16,12 @@ body {
 	border-bottom: 1px solid black;
 }
 
+.glyphicon-eye-open,
+.glyphicon-shopping-cart {
+	padding-right: 10px;
+	font-size: 25px;
+	color: #ccc;
+}
 
 button {
 	padding-top: 10px;
