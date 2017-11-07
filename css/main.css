@@ -16,9 +16,9 @@ body {
 	border-bottom: 1px solid black;
 }
 
-footer {
-	margin-right: 40px;
-	text-align: right;
+
+button {
+	padding-top: 10px;
 }
 
 .gmap {
@@ -44,13 +44,19 @@ footer {
 }
 
 .tool2 {
-	color: black;
+	color: blue;
+
 	
 }
 
 .tool2 a:hover {
 	text-decoration: none;
-	color: blue;
+	color: green;
 	border-bottom: dotted 10px #fff;
 	padding-bottom: 2px;
+}
+
+footer {
+	margin-right: 40px;
+	text-align: right;
 }
