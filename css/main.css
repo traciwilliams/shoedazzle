@@ -4,9 +4,20 @@ body {
 }
 
 #logo {
-	font-size: 120%;
+	margin-top: 10px;
+	font-size: 200%;
 	font-family: 'Zilla Slab Highlight', cursive;
 
+}
+
+
+.navbar li:hover {
+	background: #e7e7e7;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.glyphicon-shopping-cart {
+	padding-top: 10px;
 }
 
 
@@ -18,16 +29,18 @@ body {
  // 	 background-color: #f9f9f9;
  //  	text-align: center;
   	background-size: cover;
-	background-image: url("../images/Jordan-11-1995.jpg");
+	// background-image: url("../images/Jordan-11-1995.jpg");
+	background-image: url("../images/covershoe.jpg");
 	//background-size: cover;
 	height: 90vh;
 
 }
 
 .overlay {
-	font-family: 'Roboto', sans-serif;
+	// font-family: 'Roboto', sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 	color: white;
-	width: 280px;
+	width: 300px;
 	position: absolute;
 	top: 420px;
 	left: 200px;
@@ -40,11 +53,34 @@ body {
 	padding-top: 50px;
 	padding-bottom: 10px;
 	text-align: center;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+h1.title {
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+}
+
+.thumbnail {
+	padding-top: 40px;
+	background-color: rgba(255,255,255,.1);
+	box-shadow: 10px 10px 5px #888888;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.carousel-caption {
+	font-size: 180%;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.klay {
+	color: black;
 }
 
 .page-header {
 	margin-left: 80px;
 	border-bottom: 1px solid black;
+	font-family: 'ABeeZee', sans-serif;
 }
 
 .glyphicon-eye-open,
@@ -56,6 +92,7 @@ body {
 
 button {
 	padding-top: 10px;
+	font-family: 'ABeeZee', sans-serif;
 }
 
 #quote {
@@ -69,10 +106,14 @@ button {
 	padding: 10px 0;
 }
 
-
+// .largepic {
+// 	background-color: rgba(255,255,255,.1);
+// 	box-shadow: 10px 10px 5px #888888;
+// }
 
 .smallpic {
 	padding-bottom: 8px;
+	
 }
 
 .tooltip {
@@ -101,4 +142,5 @@ button {
 footer {
 	margin-right: 40px;
 	text-align: right;
+	font-family: 'ABeeZee', sans-serif;
 }
