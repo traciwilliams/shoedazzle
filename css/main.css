@@ -3,11 +3,42 @@ body {
 	padding-top: 10px;
 }
 
+#logo {
+	font-size: 120%;
+	font-family: 'Zilla Slab Highlight', cursive;
+
+}
+
+
+.jumbotron {
+
+	// padding: 30px 15px;
+ //  	margin-bottom: 30px;
+ //  	color: inherit;
+ // 	 background-color: #f9f9f9;
+ //  	text-align: center;
+  	background-size: cover;
+	background-image: url("../images/Jordan-11-1995.jpg");
+	//background-size: cover;
+	height: 90vh;
+
+}
+
 .overlay {
-	background-color: rgba(255, 255, 255, 0.5);
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	width: 280px;
+	position: absolute;
+	top: 420px;
+	left: 200px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px #888888;
 }
 
 .title {
+	padding-top: 50px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
@@ -25,6 +56,11 @@ body {
 
 button {
 	padding-top: 10px;
+}
+
+#quote {
+	font-size: 120%;
+	font-family: 'Sedgwick Ave', cursive;
 }
 
 .gmap {
